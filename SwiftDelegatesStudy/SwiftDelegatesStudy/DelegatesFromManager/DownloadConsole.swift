@@ -8,7 +8,7 @@
 import Foundation
 
 // Implemented delegate
-class DownloadHandler: DownloadDelegate {
+class DownloadConsole: DownloadDelegate {
     func startDownload(fileName: String) {
         print("Delegate: Download started for \(fileName)")
     }

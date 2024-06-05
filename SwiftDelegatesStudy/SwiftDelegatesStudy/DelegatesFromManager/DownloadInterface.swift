@@ -7,7 +7,7 @@
 
 import Foundation
 
-class DownloadInfo: ObservableObject, DownloadDelegate {
+class DownloadInterface: ObservableObject, DownloadDelegate {
     
     @Published var progress: String = ""
     @Published var downLoadStarted: Bool = false

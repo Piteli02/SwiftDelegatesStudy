@@ -15,8 +15,8 @@
 		74DC14A92C108B9E0028B592 /* DownloadDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC14A82C108B9E0028B592 /* DownloadDelegateProtocol.swift */; };
 		74DC14AB2C108BC40028B592 /* DownloadableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC14AA2C108BC40028B592 /* DownloadableModel.swift */; };
 		74DC14AD2C108BD60028B592 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC14AC2C108BD60028B592 /* DownloadManager.swift */; };
-		74DC14AF2C108BF80028B592 /* DownloadHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC14AE2C108BF80028B592 /* DownloadHandler.swift */; };
-		74DC14B22C108C2B0028B592 /* DownloadInfoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC14B12C108C2B0028B592 /* DownloadInfoDelegate.swift */; };
+		74DC14AF2C108BF80028B592 /* DownloadConsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC14AE2C108BF80028B592 /* DownloadConsole.swift */; };
+		74DC14B22C108C2B0028B592 /* DownloadInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC14B12C108C2B0028B592 /* DownloadInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +29,8 @@
 		74DC14A82C108B9E0028B592 /* DownloadDelegateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadDelegateProtocol.swift; sourceTree = "<group>"; };
 		74DC14AA2C108BC40028B592 /* DownloadableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadableModel.swift; sourceTree = "<group>"; };
 		74DC14AC2C108BD60028B592 /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
-		74DC14AE2C108BF80028B592 /* DownloadHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadHandler.swift; sourceTree = "<group>"; };
-		74DC14B12C108C2B0028B592 /* DownloadInfoDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadInfoDelegate.swift; sourceTree = "<group>"; };
+		74DC14AE2C108BF80028B592 /* DownloadConsole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadConsole.swift; sourceTree = "<group>"; };
+		74DC14B12C108C2B0028B592 /* DownloadInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +95,8 @@
 		74DC14B02C108C090028B592 /* DelegatesFromManager */ = {
 			isa = PBXGroup;
 			children = (
-				74DC14AE2C108BF80028B592 /* DownloadHandler.swift */,
-				74DC14B12C108C2B0028B592 /* DownloadInfoDelegate.swift */,
+				74DC14AE2C108BF80028B592 /* DownloadConsole.swift */,
+				74DC14B12C108C2B0028B592 /* DownloadInterface.swift */,
 			);
 			path = DelegatesFromManager;
 			sourceTree = "<group>";
@@ -172,10 +172,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				74DC149A2C108B3F0028B592 /* ContentView.swift in Sources */,
-				74DC14AF2C108BF80028B592 /* DownloadHandler.swift in Sources */,
+				74DC14AF2C108BF80028B592 /* DownloadConsole.swift in Sources */,
 				74DC14AD2C108BD60028B592 /* DownloadManager.swift in Sources */,
 				74DC14AB2C108BC40028B592 /* DownloadableModel.swift in Sources */,
-				74DC14B22C108C2B0028B592 /* DownloadInfoDelegate.swift in Sources */,
+				74DC14B22C108C2B0028B592 /* DownloadInterface.swift in Sources */,
 				74DC14A72C108B880028B592 /* FileModel.swift in Sources */,
 				74DC14A92C108B9E0028B592 /* DownloadDelegateProtocol.swift in Sources */,
 				74DC14982C108B3F0028B592 /* SwiftDelegatesStudyApp.swift in Sources */,
